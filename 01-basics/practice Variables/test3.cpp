@@ -1,4 +1,4 @@
-// testing cin
+// testing cin and cout
 #include <iostream>
 
 int main () {
