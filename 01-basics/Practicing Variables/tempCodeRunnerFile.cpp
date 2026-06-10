@@ -1,1 +1,0 @@
-// testing initialization of two variables with using cin & cout
