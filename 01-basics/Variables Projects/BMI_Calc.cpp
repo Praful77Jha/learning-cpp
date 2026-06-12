@@ -2,14 +2,14 @@
 #include <iostream>
 int main(){
     float x;
-    float y;
-    float BMI;
     std::cout<< "Enter the Weight(In Kg): ";
     std::cin>>x;
+    float y;
     std::cout<<"Enter the Height(In Meters): ";
     std::cin>>y;
-
+    
     // Calculating BMI using Arithmetic Operators
-    BMI =  x/ (y * y);
-    std::cout << "The BMI is: " <<BMI;
+   float BMI;
+   BMI =  x/ (y * y);
+   std::cout << "The BMI is: " <<BMI;
 }
