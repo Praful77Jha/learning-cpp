@@ -2,7 +2,7 @@
 #include <iostream>
 int main () {
     std:: cout << "Enter the value of integer: ";
-    int x{};
+    int x;
     std:: cin>>x;
     std:: cout << "Double of the entered integer is: " << 2*x;
    
