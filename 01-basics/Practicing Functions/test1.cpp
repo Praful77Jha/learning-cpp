@@ -8,7 +8,8 @@ int getValueFromUser(){
 }
 int main(){
     int num{getValueFromUser()};
+    num=num*2;
     
-    std::cout<<"Double is: "<<num*2;
+    std::cout<<"Double is: "<<num;
     return 0;
 }
