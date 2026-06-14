@@ -1,0 +1,1 @@
+// Testing value-returning functions - single responsibility: separate input, calculation, and output
