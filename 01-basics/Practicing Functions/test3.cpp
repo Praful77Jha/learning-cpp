@@ -10,11 +10,11 @@ int getRectangleArea(){
     std::cin>>width;
     return length*width;
 }
-int getCircleArea(){
+float getCircleArea(){
     float radius{};
     std::cout<<"Enter the Radius: ";
     std :: cin>>radius;
-    return radius;
+    return 3.14159f*radius*radius;
     
 }
 
@@ -33,16 +33,14 @@ int getSquareArea(){
     int side{};
     std::cout<<"Enter the Side: ";
     std :: cin>>side;
-    return side;
+    return side*side;
     
 }
 
 int main(){
- 
-    std::cout << "Rectangle Area: " << getRectangleArea() * getRectangleArea();
-    std::cout << "\nCircle Area: " << 3.14159 * getRectangleArea() * getRectangleArea();
-    std::cout << "\nTriangle Area: " << 0.5 * getTriangleArea() * getTriangleArea();
-    std::cout << "\nSquare Area: " << getSquareArea() * getSquareArea();
+    std::cout << "Rectangle Area -> "<<"\n" << getRectangleArea() << "\n";
+    std::cout << "Circle Area -> " <<"\n" << getCircleArea() << "\n";
+    std::cout << "Triangle Area -> " <<"\n" << getTriangleArea() << "\n";
+    std::cout << "Square Area -> " <<"\n" << getSquareArea() << "\n";
     return 0;
-   
 }
