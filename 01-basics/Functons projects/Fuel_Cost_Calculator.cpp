@@ -17,16 +17,17 @@ int getMileage(){
 }
 int getFuelPrice(){
     float Price{};
-    std::cout<<"Enter The Distance(Rs/litre): ";
+    std::cout<<"Enter The Fuel Price(Rs/litre): ";
     std::cin>>Price;
     return Price;
 } 
-int calculateFuelCost(){
+float calculateFuelCost(){
     float Fuel_Cost{};
     Fuel_Cost = (getDistance()/getMileage())*getFuelPrice();
     return Fuel_Cost;
 } 
 int main(){
-    std::cout<<"The Fuel cost is : "<< calculateFuelCost()<<" Rupees Only";
+    float Cost{calculateFuelCost()};
+    std::cout<<"The Fuel cost is : "<< Cost<<" Rupees Only";
     return 0;
 } 
