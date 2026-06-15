@@ -30,6 +30,7 @@ float calculateSimpleInterest(){
  
 }
 int main(){
-    std::cout<<"Simple Interest is : "<< calculateSimpleInterest() <<" Rupees";
+    float SI{calculateSimpleInterest()};
+    std::cout << "Simple Interest is : " << SI << " Rupees";  // SI use kar
     return 0;
 }
