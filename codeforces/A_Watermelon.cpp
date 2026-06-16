@@ -1,3 +1,6 @@
+// Watermelon - 4A
+// Split W into two even parts both >= 2
+
 #include<iostream>
 int main(){
     int a;
