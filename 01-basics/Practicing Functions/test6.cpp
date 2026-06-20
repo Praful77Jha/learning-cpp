@@ -1,3 +1,5 @@
+// Testing undefined behavior - uninitialized variable garbage value 
+
 #include <iostream>
 
 int getValueFromUser()
