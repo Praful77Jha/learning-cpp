@@ -19,4 +19,10 @@ int gettenure(){
     std::cin>>tenure;
     return tenure; 
 }
+void printemi(){
+    float EMI{};
+    EMI = (P * R * (1+R)^N) / ((1+R)^N - 1)
+
+
+}
 
