@@ -13,7 +13,7 @@ int calculateCharges(){
 }
 int calculatePenalty(){
     int hours{};
-    cout << "Enter the Hours: ";
+    cout << "Enter Penalty: ";
     cin >> hours;
     
     if(hours > 8){
