@@ -3,7 +3,7 @@ int add(int x, int y, int z);
 
 int mul(int a, int b, int c);
 
-int div(int p, int q, int r);
+double div(int p, int q, int r);
 
 int sub(int u, int v, int w);
 
