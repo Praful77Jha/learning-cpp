@@ -7,7 +7,7 @@ int mul(int a, int b, int c){
     return a*b*c;
 }
 
-double div(int p, int q, int r){
+double div(double p, double q, double r){
     return p/q/r;
 }
 
