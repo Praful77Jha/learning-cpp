@@ -21,4 +21,13 @@ void printReceipt(){
     std::cout<<"Enter The Number of Tickets Bought: ";
     std::cin>>tickets;
 
+    int TicketCost = calculateTicketCost(tickets);
+    int Handlingfee = calculateHandlingFee(tickets);
+    int Totalfee = TicketCost + Handlingfee;
+
+    std::cout << "\n--- BILL ---\n";
+    std::cout << "Ticket cost: " << TicketCost << "\n";
+    std::cout << "Handling fee: " << Handlingfee << "\n";
+    std::cout << "Total fee: " << Totalfee << "\n";
+
 }
