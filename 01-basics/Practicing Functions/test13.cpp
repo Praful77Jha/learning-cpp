@@ -1,2 +1,12 @@
 // testing conditional stats in preprocessors
-#i
+#include <iostream>
+#define PRINT_PRAFUL
+int main (){
+    #ifdef PRINT_PRAFUL
+        std::cout << "PRAFUL\n";
+    #endif
+    #ifdef PRINT_NITIN
+        std::cout<<"NITIN\n";
+        #endif
+    return 0;
+}
